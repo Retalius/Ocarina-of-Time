@@ -1,0 +1,32 @@
+{
+  "name": "ocarina-of-time",
+  "version": "1.0.0",
+  "description": "An ocarina player",
+  "homepage": "https://github.com/Retalius/Ocarina-of-Time#readme",
+  "author": "Retalius",
+  "license": "ISC",
+  "type": "commonjs",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Retalius/Ocarina-of-Time.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Retalius/Ocarina-of-Time/issues"
+  },
+  "scripts": {
+    "css": "",
+    "js": "",
+    "build": "npm run css & npm run js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.18",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "eslint": "^9.29.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
